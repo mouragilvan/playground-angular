@@ -6,7 +6,7 @@ services:
     build:
       context: ./
       dockerfile: web.dockerfile
-    working_dir: /app
+    working_dir: /usr/local/apache2/htdocs
     #compartilha um volume para o container
     volumes:
       - "./:/usr/local/apache2/htdocs/"
