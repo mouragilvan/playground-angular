@@ -6,6 +6,9 @@
 ## Pré-requisitos
 <p>Ter o Docker instalado na sua máquina</p>
 
+## Observação importante
+
+
 ## Comandos para rodar buildar e rodar o container
 ```
 docker-compose build
