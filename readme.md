@@ -9,7 +9,7 @@
 <p>Ter o Docker instalado na sua máquina</p>
 
 ## Observação importante
-<p>O arquivo web.dockerfile contém uma instrução da seguinte forma: <b>COPY . /usr/local/apache2/htdocs/<b></p>
+<p>O arquivo web.dockerfile contém uma instrução da seguinte forma: <b>COPY . /usr/local/apache2/htdocs/</b></p>
 <p>Isto significa que tudo que tiver na raiz desta arquitetura vai ser colocada dentro da pasta htdocs</p>
 
 ## Comandos para rodar buildar e rodar o container
