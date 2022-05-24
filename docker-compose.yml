@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  #WEB PHP E APACHE
+  web:
+    build:
+      context: ./
+      dockerfile: web.dockerfile
+    working_dir: /app
+    #compartilha um volume para o container
+    # volumes:
+    #   - "./:/var/www/html"
+    container_name: ${WEB_CONTAINER_NAME}
+    ports:
+      - "80:80"
+    tty: true  
+   
+   
+
+
+
+ 
