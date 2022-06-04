@@ -12,4 +12,4 @@ RUN npm install -g @angular/cli
 # EU COLOQUEI EM /dist MAS VOCÊ PODE COLOCAR ONDE PREFERIR
 # RUN ng build --prod --output-path=dist/ --base-href './'
 
-EXPOSE 80
+EXPOSE 80 3000
